@@ -12,7 +12,7 @@ int main() {
   }
   printf("\n");
 
-  std::vector<int> bucket(range,0); 
+  std::vector<int> bucket(range,0);
   for (int i=0; i<n; i++)
     bucket[key[i]]++;
   std::vector<int> offset(range,0);
